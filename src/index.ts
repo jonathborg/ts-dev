@@ -1,11 +1,5 @@
-Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 800);
-import MyClass from './MyClass';
+import { DateTime } from 'luxon';
 
-(async () => {
-
-    const myClass = new MyClass('Hello World');
-    console.log(myClass.getSomething());
-
-    debugger;
-})()
-.catch(console.error);
+export function toDateId(date: Date) {
+    return DateTime.fromJSDate(date).toFormat('yyyyMMddHHmmss');
+}
