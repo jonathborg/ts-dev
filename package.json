@@ -6,10 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.ts"
   },
-  "dependencies": {
-    "fast-xml-parser": "^3.16.0",
-    "got": "^10.2.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/got": "^9.6.9",
     "nodemon": "^2.0.2",
