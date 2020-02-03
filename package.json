@@ -7,10 +7,11 @@
     "dev": "nodemon src/index.ts"
   },
   "dependencies": {
-    "luxon": "^1.22.0"
+    "fast-xml-parser": "^3.16.0",
+    "got": "^10.2.2"
   },
   "devDependencies": {
-    "@types/luxon": "^1.21.0",
+    "@types/got": "^9.6.9",
     "nodemon": "^2.0.2",
     "sucrase": "^3.12.1",
     "typescript": "^3.7.4"
