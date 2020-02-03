@@ -1,0 +1,19 @@
+{
+  "name": "fix-docsystem",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.16.0",
+    "got": "^10.2.2"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.9",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1",
+    "typescript": "^3.7.4"
+  }
+}
