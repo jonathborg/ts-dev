@@ -3,6 +3,9 @@ Boilerplate typescript starter for fast developments
 
 ### How to run?
 ```
+git clone https://github.com/jonathborg/ts-dev.git your-project-name
+cd your-project-name
+rm -rf .git
 yarn
 yarn dev
 ```
